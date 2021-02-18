@@ -331,7 +331,7 @@ p {
 #projects .projects {
 	flex-direction: column;
 	max-width: 1200px;
-	margin: 5%;
+	margin: 7%;
 	padding: 100px 0;
 }
 #projects .projects-header h1 {
