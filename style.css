@@ -327,10 +327,11 @@ p {
 /* End Services Section */
 
 /* Projects section */
+
 #projects .projects {
 	flex-direction: column;
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 5%;
 	padding: 100px 0;
 }
 #projects .projects-header h1 {
@@ -381,7 +382,7 @@ p {
 	overflow: hidden;
 	/* position: relative; */
 }
-#projects .project-img:after {
+/* #projects .project-img:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -396,7 +397,7 @@ p {
 }
 #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
-}
+} */
 /* End Projects section */
 
 /* About Section */
