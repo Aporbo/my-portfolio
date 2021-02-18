@@ -331,7 +331,9 @@ p {
 #projects .projects {
 	flex-direction: column;
 	max-width: 1200px;
-	margin: 10%;
+	/* margin-left: 20%; */
+	/* margin-right: 20%; */
+	margin: 10% 10% 10% 10%;
 	padding: 100px 0;
 }
 #projects .projects-header h1 {
@@ -698,5 +700,15 @@ p {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
+}/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
 }
 /* End  Media Query For Desktop */
